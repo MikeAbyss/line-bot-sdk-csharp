@@ -16,7 +16,7 @@ namespace LineMessagingAPISDK.Models
         /// Max 10 MB
         /// </summary>
         [StringLength(1000, ErrorMessage = "Max: 1000 characters")]
-        [RegularExpression("^https://.*(jpg|jpeg)$", ErrorMessage = "Require HTTPS and jpeg")]
+        [RegularExpression("^https://.*(m4a)$", ErrorMessage = "Require HTTPS and m4a")]
         [JsonProperty("originalContentUrl")]
         public string OriginalContentUrl { get; set; }
 
